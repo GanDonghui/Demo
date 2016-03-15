@@ -1,4 +1,4 @@
-body{margin: 0 auto; padding: 0; background: #DEDEDE; font-family: "Microsoft YaHei",sans-serif;}
+body{margin: 0 auto; padding: 0; background: #DEDEDE; font-family: "Microsoft YaHei",sans-serif; width: 1366px; min-width: 1280px;}
 nav div p ul li a{margin: 0; padding: 0;}
 header {height: 60px; background: #333333;width: 100%;}
 header nav{float: right;}
