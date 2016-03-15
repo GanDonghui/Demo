@@ -1,6 +1,6 @@
 body{margin: 0 auto; padding: 0; background: #DEDEDE; font-family: "Microsoft YaHei",sans-serif;}
 nav div p ul li a{margin: 0; padding: 0;}
-header {height: 60px; background: #333333}
+header {height: 60px; background: #333333;width: 100%;}
 header nav{float: right;}
 header nav ul{margin: 0;}
 header nav ul li{ float: left;margin-right: 22px;}
@@ -29,4 +29,4 @@ header nav ul li.active a{color: #CCC}
 #right form .spec{vertical-align: top;}
 #right form .tips{margin-left: 160px; margin-bottom: 20px;display: inline-block;color: #9F9F9F; }
 #right form textarea{font-size: 18px; line-height: 20px;}
-footer{height: 30px; text-align: center; color: white; background-color: black; padding: 20px;}
+footer{height: 30px; text-align: center; color: white; background-color: black; padding: 20px;width: 100%;}
