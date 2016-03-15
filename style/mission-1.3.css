@@ -1,11 +1,12 @@
-body{margin: 0; padding: 20px; background: #EEE; font-family: "Microsoft Yahei";}
+body{margin: 0; padding: 20px; font-family: "Microsoft Yahei";}
 div{padding: 20px; border: 1px solid #999; background: white;}
-#left{width: 160px; position: absolute; left: 20px; top: 20px; }
+#main{ background: #EEE; position: relative;}
+#left{width: 160px; float: left; }
 #left img{width: 80px; height: 80px;}
 #left span{position: absolute; left: 120px; top: 20px; right: 20px; font-size: 14px;}
 #mid{ position: absolute; left: 240px; right: 160px; }
 #mid p{text-indent: 2em;}
-#right{width: 80px; position: absolute; right: 20px; top: 20px;}
+#right{width: 80px; float: right;}
 #right ul{padding: 0;margin: 0; height: 386px; overflow: hidden;}
 #right ul li{list-style: none;}
 #right ul li img{width: 80px; height: 80px; margin-bottom: 20px; line-height: 0;}
