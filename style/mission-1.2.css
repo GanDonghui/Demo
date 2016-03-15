@@ -1,0 +1,32 @@
+body{margin: 0 auto; padding: 0; background: #DEDEDE; font-family: "Microsoft YaHei",sans-serif;}
+nav div p ul li a{margin: 0; padding: 0;}
+header {height: 60px; background: #333333}
+header nav{float: right;}
+header nav ul{margin: 0;}
+header nav ul li{ float: left;margin-right: 22px;}
+header nav ul li a{color: white; display: block; text-decoration: none;font-size: 15px;line-height: 15px;padding: 21px 0;  font-family: "Microsoft YaHei",sans-serif;}
+header nav ul li.active a{color: #CCC}
+#right,#left article{width: 1240px; background: white; margin: 20px auto; border-right: 2px solid #9F9F9F; border-bottom: 2px solid #9F9F9F; padding: 40px 25px;}
+#left article h3{color: #313140; font-size: 20px;}
+#left article p{text-indent:2em;}
+#left article span{color:  #9F9F9F; font-size: 15px;}
+#left article ul li{list-style: none;}
+#left article dl dd div{ width: 155px; height: 165px; border: 1px solid #CCC; text-align: center; margin: 15px;}
+#left article dl dd div span{ color: black; margin: 10px;display: inline-block; font-size: 15px;}
+#left article dl dd div img{ width: 120px;}
+#left article table{width: 100%;     border-collapse: collapse;}
+#left article table thead{background: #333333; color: white; font-weight: bold;}
+#left article table tfoot{background: #CCC; color: black; font-weight: bold;}
+#right{padding: 10px 20px;}
+#right h3{line-height: 40px; border-left: 3px solid #CCC; padding-left: 15px; }
+#right form input{height: 20px;margin: 10px;vertical-align:middle; font-size: 15px; line-height: 20px}
+#right form label{vertical-align:middle;}
+#right #submit{width: 100%; background: #3355D0;display: block; height: 40px; border: none; color: white; font-size: 18px; line-height: 40px; border-radius:10px; font-weight: bold;}
+#right form div{margin-left: 25%;}
+#right form div span{vertical-align: center; font-size: 16px;}
+#right form div .blue{width: 18px;}
+#right form .att{line-height: 26px;display: inline-block; height: 26px; width: 150px; text-align: right;}
+#right form .spec{vertical-align: top;}
+#right form .tips{margin-left: 160px; margin-bottom: 20px;display: inline-block;color: #9F9F9F; }
+#right form textarea{font-size: 18px; line-height: 20px;}
+footer{height: 30px; text-align: center; color: white; background-color: black; padding: 20px;}
