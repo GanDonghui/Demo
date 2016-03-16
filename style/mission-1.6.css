@@ -1,9 +1,16 @@
 *{margin: 0; padding: 0;}
 body{margin: 0 auto; padding: 0; width: 890px; font-family: "Microsoft Yahei";}
 #header{width:100%; height: 60px; border-bottom: 2px solid #928E8C; margin-bottom: 35px;}
+
+
 #h_left{ display: inline-block; background: #D45C5B;}
 #h_left a{padding: 41px 20px 5px 5px;color: white;font-size: 12px; font-family: "黑体"; text-decoration: none; float: left;}
+
+
 #h_right{float: right;display: inline-block; font-size: 12px; font-family: "黑体"; color: #D45C5B; height: 20px; width: 46px; padding-top: 40px;}
+
+
+
 #bf_img{width: 640px; height: 300px; background-image: url("../images/1.6.1.png"); margin-right: 48px; float: left; margin-bottom: 30px;}
 #bf_img div{width: 190px; height: 300px; filter: alpha(opacity=50); opacity: 0.5;}
 #img_left{background: #A1C6AC;float: left;}
@@ -16,6 +23,8 @@ body{margin: 0 auto; padding: 0; width: 890px; font-family: "Microsoft Yahei";}
 #abig_num{color: #CC8090; font-size: 55px;}
 #css1{color: #CC8090; font-size: 21px; position: absolute; left: 80px; top: 23px;}
 #css2{color: #221714; font-size: 12px; position: absolute; left: 80px; bottom: 10px; overflow: hidden;}
+
+
 #box_s div{margin-right: 20px; margin-bottom: 50px;float: left;}
 #box_s h2{text-decoration: underline; text-transform: capitalize; margin-bottom: 10px; font-size: 16px;}
 #box_s p{font-size: 12px; color: #767676; font-family: "宋体";}
@@ -27,6 +36,9 @@ body{margin: 0 auto; padding: 0; width: 890px; font-family: "Microsoft Yahei";}
 #how h2{color: #CC7680;}
 #how ul li{list-style: none; font-size: 12px; position: relative; bottom: -30px;}
 #how ul li span{color: #CC7680; font-style: oblique;}
+
+
+
 #box_t{clear: both; padding-bottom: 40px;}
 #bt_left {width: 415px; float: left;}
 #bt_left h1{font-family: "黑体"; font-size: 42px; color: #10446B;}
@@ -59,5 +71,7 @@ body{margin: 0 auto; padding: 0; width: 890px; font-family: "Microsoft Yahei";}
 #bt_in span{font-size: 72px; color: #D35B5A;}
 #btn1{float: left; margin: -15px 10px -50px -40px;}
 #btn2{margin: -5px -31px 0px 0; float: right;}
+
+
 #footer{height: 60px; border-top: 1px solid #928E8C; clear: both; margin-top: 60px;}
 #footer span{float: right; color: #D45C5B; font-size: 12px; font-family: "黑体"; }
