@@ -1,0 +1,63 @@
+*{margin: 0; padding: 0;}
+body{margin: 0 auto; padding: 0; width: 890px; font-family: "Microsoft Yahei";}
+#header{width:100%; height: 60px; border-bottom: 2px solid #928E8C; margin-bottom: 35px;}
+#h_left{ display: inline-block; background: #D45C5B;}
+#h_left a{padding: 41px 20px 5px 5px;color: white;font-size: 12px; font-family: "黑体"; text-decoration: none; float: left;}
+#h_right{float: right;display: inline-block; font-size: 12px; font-family: "黑体"; color: #D45C5B; height: 20px; width: 46px; padding-top: 40px;}
+#bf_img{width: 640px; height: 300px; background-image: url("../images/1.6.1.png"); margin-right: 48px; float: left; margin-bottom: 30px;}
+#bf_img div{width: 190px; height: 300px; filter: alpha(opacity=50); opacity: 0.5;}
+#img_left{background: #A1C6AC;float: left;}
+#img_right{background: #E6BBC0;float: right;}
+#bf_text{width: 202px; height: 300px;float: right;border-top: 2px solid #CC7F90; padding-top: 5px;}
+#bf_text h2{font-size: 24px;text-decoration: underline;color: black; line-height: 29px; font-variant: small-caps; font-weight: normal;}
+#bf_text p{font-size: 12px; font-style: oblique; font-family: "楷体"}
+#big_num{color: #75B76B; font-size: 116px; font-style: oblique; display: block; width: 225px; height: 114px; line-height: 114px;margin-left: -20px;}
+#bf_text div{position: relative; margin-top: 30px; width: 202px; overflow: hidden;}
+#abig_num{color: #CC8090; font-size: 55px;}
+#css1{color: #CC8090; font-size: 21px; position: absolute; left: 80px; top: 23px;}
+#css2{color: #221714; font-size: 12px; position: absolute; left: 80px; bottom: 10px; overflow: hidden;}
+#box_s div{margin-right: 20px; margin-bottom: 50px;float: left;}
+#box_s h2{text-decoration: underline; text-transform: capitalize; margin-bottom: 10px; font-size: 16px;}
+#box_s p{font-size: 12px; color: #767676; font-family: "宋体";}
+#what{width: 232px;}
+#what h2{color: #418B58;}
+#when{width: 208px; }
+#when h2{color: #D1984E;}
+#how{width: 136px;}
+#how h2{color: #CC7680;}
+#how ul li{list-style: none; font-size: 12px; position: relative; bottom: -30px;}
+#how ul li span{color: #CC7680; font-style: oblique;}
+#box_t{clear: both; padding-bottom: 40px;}
+#bt_left {width: 415px; float: left;}
+#bt_left h1{font-family: "黑体"; font-size: 42px; color: #10446B;}
+#bt_left h1 span{color: #F3E326; font-size: 72px; font-style: oblique;}
+#bt_left h2 {color: #10446B; font-size: 33px;font-family: "黑体";}
+#bt_left p{font-size: 12px;}
+#bt_left p img{float: right; width: 167px; height: 288px; margin: 20px;}
+.in2{ text-indent: 2em; }
+#pf{border-top: 2px solid #10446B; margin-top: 14px; padding-top: 25px;}
+#pf span{font-size: 70px; color: #F4E326; float: left; margin: -12px 10px 5px 0; height: 83px;}
+
+#bt_right{width: 458px; float: right; margin-top: 30px;}
+#bt_img{background-image: url("../images/1.6.3.png"); height: 257px; width: 458px; position: relative; margin-bottom: 30px;}
+#bt_img div{position: absolute; bottom: 0; height: 60px; width: 458px; background: rgba(0,0,0,0.5);}
+#bt_img_1{color: white; font-size: 26px; height: 60px; line-height: 60px; border-left: 3px solid #72B069; margin-left: 35px; padding-left: 13px;}
+#bt_img_2{color: #72B069; font-style: oblique;}
+#bt_info{width: 418px; height: 275px;background: #EDECD6; padding: 30px 20px; margin-bottom: 40px;}
+#bt_info ul li{list-style: none; font-size: 16px; font-family: "宋体"; line-height: 40px;}
+#bt_info ul li span{font-size: 12px; font-style: oblique;}
+#bt_info ul li em{border: 5px solid; border-bottom: 10px solid;border-color:#EDECD6 #EDECD6 blue #EDECD6; height: 0; display: inline-block; width: 0; margin-right: 5px; }
+#bt_num{background: #D45C5B; width: 260px; height: 160px; margin: 20px 10px -30px -20px; float: left;}
+
+#bt_num div{width: 176px; float: right; border-left: 2px solid white; color: white; padding-left: 10px; margin-top: 36px; }
+#big_z{font-size: 110px; line-height: 160px; color: white;}
+.bt_n{font-size: 21px; font-family: "黑体"; font-style: oblique;}
+#bt_h{font-size: 12px; font-family: "黑体"; }
+
+#bt_in{width: 166px; float: right;margin-top: 35px; font-family: "黑体";}
+#bt_in em{font-size: 14px;}
+#bt_in span{font-size: 72px; color: #D35B5A;}
+#btn1{float: left; margin: -15px 10px -50px -40px;}
+#btn2{margin: -5px -31px 0px 0; float: right;}
+#footer{height: 60px; border-top: 1px solid #928E8C; clear: both; margin-top: 60px;}
+#footer span{float: right; color: #D45C5B; font-size: 12px; font-family: "黑体"; }
