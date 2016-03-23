@@ -1,0 +1,808 @@
+*{margin: 0; padding: 0;font-family: "黑体";}
+body{
+    min-width: 1280px;
+    background: #EFF7FF;
+    overflow: auto;
+}
+header{
+    background-color: #2189BF;
+    height: 57px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+table,td,th{
+    border-collapse: collapse;
+    border: 1px solid #AAAAA9;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+/*header部分*/
+header .logo{
+    height: 37px;
+    width: 37px;
+    background-color: white;
+    float: left;
+    margin: 10px 0 10px 50px;
+    position: relative;
+}
+header .logo div{
+    width: 14px;
+    height: 14px;
+    border: 3px solid #2189BF;
+    position: absolute;
+    right: -3px;
+    bottom: -3px;
+}
+header .serach{
+    float: right;
+    height: 29px;
+    margin: 14px 92px 14px;
+    position: relative;
+}
+header .serach input{
+    width: 268px;
+    height: 29px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 20px;
+    padding-left: 42px;
+    outline: medium;
+}
+header .serach span{
+    background: url('../images/1.9.png') no-repeat -53px -55px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 18px;
+    top: 6px;
+    cursor: pointer;
+}
+header .serach a em{
+    background: url('../images/1.9.png') no-repeat -27px -56px;
+    width: 15px;
+    height: 16px;
+    float: left;
+    margin: 5px 2px;
+}
+header .serach a{
+    color: white;
+    font-size: 12px;
+    line-height: 29px;
+    display: inline-block;
+    height: 29px;
+}
+
+
+/*box*/
+.box{
+    width: 1281px;
+    margin: 0 auto;
+    overflow: auto;
+}
+/*box menu部分*/
+.box .menu{
+    width: 261px;
+    background: #2A2E3D;
+    float: left;
+    padding-top: 18px;
+    height: 1180px;
+}
+.box .menu .user_info{
+    overflow: auto;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+.box .menu .user_info .user_photo{
+    height: 57px;
+    width: 57px;
+    border: 2px solid #BABABE;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+}
+.box .menu .user_info .user_photo div{
+    width: 47px;
+    height: 47px;
+    border: none;
+    border-radius: 50%;
+    background: #BABABE;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.box .menu .user_info span{
+    float: left;
+    margin-left: 18px;
+    font-size: 16px;
+    color: white;
+    margin-top: 18px;
+}
+.box .menu .fork{
+    overflow: auto;
+    margin-bottom: 22px;
+    padding-left: 40px;
+}
+.box .menu .fork div{
+    width: 72px;
+    float: left;
+    text-align: center;
+}
+.box .menu .fork div:first-child{
+    border-right: 1px solid #6D8095;
+}
+.box .menu .fork div span{
+    color: #6D8095;
+    font-size: 12px;
+    display: block;
+    font-family: "宋体";
+}
+.box .menu .fork div a:hover span{
+    color: white;
+}
+.box .menu .fork div .num{
+    font-family: "黑体";
+    font-size: 16px;
+}
+.box .menu .list{
+    color: #6D8095;
+    font-size: 12px;
+}
+#person_collection>a span{
+    background: url('../images/1.9.png') no-repeat -29px -82px;
+    width: 12px;
+    height: 11px;
+    float: left;
+    margin-right: 8px;
+}
+#my_shore>a span{
+    background: url('../images/1.9.png') no-repeat -29px -99px;
+    width: 11px;
+    height: 12px;
+    float: left;
+    margin-right: 7px;
+}
+#pictures>a span{
+    background: url('../images/1.9.png') no-repeat -29px -82px;
+    width: 12px;
+    height: 11px;
+    float: left;
+    margin-right: 8px;
+}
+#growth>a span{
+    background: url('../images/1.9.png') no-repeat -29px -82px;
+    width: 12px;
+    height: 11px;
+    float: left;
+    margin-right: 8px;
+}
+#person_info>a span{
+    background: url('../images/1.9.png') no-repeat -27px -121px;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-right: 8px;
+}
+.box .menu .list .list_inside1.acitve{
+    background: #383D4E;
+}
+.box .menu .list .list_inside1 a:hover{
+    background: #383D4E;
+}
+.box .menu .list .list_inside1>a{
+    display: block;
+    padding: 15px 0 15px 50px;
+    color: #6D8095;
+}
+.box .menu .list .list_inside1.acitve>a{
+    color: white;
+}
+#person_form>a span{
+    background: url("../images/1.9.png") no-repeat -17px -262px;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-right: 10px;
+}
+.box .menu .list .list_inside1 .list_inside2>a{
+    padding: 8px 0 8px 60px;
+    display: block;
+    color: #6D8095;
+}
+.box .menu .list .list_inside1 .list_inside2.active>a{
+    color: white;
+}
+.box .menu .list .list_inside1 .list_inside2>a span:first-child{
+    background: url('../images/1.9.png') no-repeat -49px -149px;
+    width: 7px;
+    height: 11px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+.box .menu .list .list_inside1  .list_inside2.active>a span:first-child{
+    background: url('../images/1.9.png') no-repeat -47px -180px;
+    width: 11px;
+    height: 8px
+    margin-top: 1px;
+    margin-right: 8px; 
+}
+.box .menu .list .list_inside1  .list_inside2>a span{
+    background: url('../images/1.9.png') no-repeat -53px -82px;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-right: 3px;
+}
+.box .menu .list .list_inside1  .list_inside2 ul li a{
+    padding: 5px 0 5px 92px;
+    display: block;
+    color: #6D8095;
+}
+.box .menu .list .list_inside1  .list_inside2 ul li.acitve{
+    color: white;
+}
+.box .menu .list .list_inside1  .list_inside2 ul li span{
+    background: url('../images/1.9.png') no-repeat -52px -103px;
+    width: 10px;
+    height: 11px;
+    float: left;
+    margin: 2px 3px;
+}
+/*box items部分*/
+.box .items{
+    background: #EEEEED;
+    width: 1020px;
+    height: 1198px;
+    float: left;
+}
+.box .items .items_menu{
+    height: 30px;
+    background: white;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.box .items .items_menu li{
+    float: left;
+}
+.box .items .items_menu li a{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: #AAAAA9;
+    font-size: 12px;
+    padding: 0 10px 0 5px;
+}
+.box .items .items_menu li:not(:last-child):after{
+    content: "/";
+    height: 30px;
+    line-height: 30px;
+    color: #AAAAA9;
+}
+.box .items .items_menu li:last-child a{
+    color: #6798C0;
+}
+.box .items .serach_form{
+    width: 835px;
+    background: white;
+    height: 54px;
+    margin: 10px auto;
+    padding: 16px 28px;
+}
+.box .items .serach_form div{
+    float: left;
+    margin-right: 35px;
+}
+.box .items .serach_form div label{
+    color: #AAAAA9;
+    font-size: 12px;
+    padding-right: 8px;
+}
+.box .items .serach_form div select{
+    height: 26px;
+    padding: 4px 10px;
+    color: #323232;
+    font-size: 12px;
+}
+.box .items .serach_form div:nth-child(2){
+    width: 192px;
+    position: relative;
+}
+.box .items .serach_form div:nth-child(2) select{
+    width: 118px;
+    margin-bottom: 5px;
+}
+.box .items .serach_form div:nth-child(2) a{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 6px;
+    top: 19px;
+}
+.box .items .serach_form div:nth-child(2) span{
+    position: absolute;
+    background: url('../images/1.9.png') no-repeat -27px -203px;
+    width: 28px;
+    height: 38px;
+    right: 5px;
+    top: 7px;
+}
+.box .items .serach_form div:nth-child(3){
+    width: 292px;
+}
+.box .items .serach_form div:nth-child(3) input{
+    width: 110px;
+    height: 22px;
+    margin: 0 5px 5px 0;
+    padding-left: 5px;
+}
+.box .items .serach_form div:nth-child(3) select option{
+
+}
+.box .items .serach_form div:nth-child(3) select:last-child{
+    width: 118px;
+}
+.box .items .serach_form>input{
+    width: 50px;
+    height: 26px;
+    background: #388AC1;
+    color: white;
+    border: none;
+    font-size: 12px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.box .items .history{
+    width: 891px;
+    height: 65px;
+    font-size: 12px;
+    margin: 10px auto;
+}
+.box .items .history>div{
+    float: left;
+    width: 31px;
+    height: 65px;
+    margin-right: 4px;
+    background: white;
+    cursor: pointer;
+}
+.box .items .history .history_left span{
+    background: url('../images/1.9.png') no-repeat -24px -165px;
+    width: 10px;
+    height: 17px;
+    float: left;
+    margin: 24px 8px;
+}
+.box .items .history .history_right span{
+    background: url('../images/1.9.png') no-repeat -50px -124px;
+    width: 10px;
+    height: 17px;
+    float: left;
+    margin: 24px 10px;
+}
+.box .items .history li{
+    width: 111px;
+    height: 65px;
+    text-align: center;
+    float: left;
+    margin-right: 4px;
+    padding: 12px 0 10px;
+    background: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.box .items .history li.active{
+    border-top: 3px solid #2189BF;
+}
+.box .items .history li b{
+    font-size: 15px;
+    color: #AAAAA9;
+    font-family: "Microsoft Yahei";
+}
+.box .items .history li span{
+    font-family: "Microsoft Yahei";
+}
+.box .items .history li span:last-child{
+    font-size: 21px;
+    color: #EB6400;
+}
+.box .items .history div:last-child{
+    width: 95px;
+    height: 29px;
+    margin-right: 0;
+    padding: 18px;
+}
+.box .items .history div:last-child em{
+    background: url('../images/1.9.png') no-repeat -34px -9px;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+.box .items .history div:last-child span{
+    font-family: "Microsoft Yahei";
+    color: #535353;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 12px;
+}
+.box .items .mouth_total{
+    width: 891px;
+    height: 92px;
+    margin: 20px auto 15px;
+}
+.box .items .mouth_total h4{
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+    color: #323232;
+    height: 22px;
+}
+.box .items .mouth_total li{
+    float: left;
+    background: white;
+    margin-right: 28px;
+    height: 71px;
+    width: 201px;
+    box-sizing: border-box;
+    padding: 12px 16px 12px 8px;
+}
+.box .items .mouth_total li:nth-child(2){
+    border-left: 4px solid #43B29D;
+}
+.box .items .mouth_total li:nth-child(3){
+    border-left: 4px solid #388AC1;
+}
+.box .items .mouth_total li:nth-child(3) em{
+    background: #388AC1;
+}
+.box .items .mouth_total li:nth-child(4){
+    border-left: 4px solid #D04B36;
+}
+.box .items .mouth_total li:nth-child(4) em{
+    background: #D04B36;
+}
+.box .items .mouth_total li:last-child{
+    margin-right: 0;
+    border-left: 4px solid #E2CD47;
+}
+.box .items .mouth_total li:last-child em{
+    background: #E2CD47;
+}
+.box .items .mouth_total li span:first-child{
+    font-size: 12px;
+    color: black;
+}
+.box .items .mouth_total li span{
+    font-size: 10px;
+    color: #AAAAA9;
+}
+.box .items .mouth_total li em{
+    width: 61px;
+    height: 47px;
+    float: right;
+    background: #43B29D;
+    margin-top: -18px;
+}
+.box .items .item_detail{
+    width: 891px;
+    margin: 10px auto;
+    overflow: auto;
+}
+.box .items .item_detail .item_list{
+    width: 531px;
+    height: 356px;
+    box-sizing: border-box;
+    border: 1px solid #AAAAA9;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    float: left;
+    margin-right: 10px;
+}
+.box .items h4{
+    height: 41px;;
+    font-size: 12px;
+    color: #AAAAA9;
+    line-height: 41px;
+    padding-left: 20px;
+    background: #F4F5F6;
+    font-weight: normal;
+}
+.box .items .item_detail .item_list .item_tab{
+    margin: 12px 0 0 16px;
+    height: 28px;
+}
+.box .items .item_detail .item_list .item_tab li{
+    float: left;
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+    width: 87px;
+    margin-right: 5px;
+    background: #EDEDF0;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+.box .items .item_detail .item_list .item_tab li.active{
+    border: 1px solid #AAAAA9;
+    background: white;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+.box .items .item_detail .item_list .item_table{
+    margin-left: 16px;
+    width: 489px;
+    border: 1px solid #AAAAA9;
+    box-sizing: border-box;
+    padding: 28px 42px; 
+}
+.box .items .item_detail .item_list .item_table li td{
+    width: 100px;
+    height: 10px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #525252;
+    padding: 8px 0 8px 18px;
+}
+.box .items .item_detail .item_info{
+    float: left;
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid #AAAAA9;
+    border-radius: 8px;
+    background: white;
+    overflow: hidden;
+    height: 357px;
+}
+.box .items .item_detail .item_info>div{
+    padding:  16px 35px 0 35px; 
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+    color: #C2C2C1;
+}
+.box .items .item_detail .item_info>div>div{
+    overflow: auto;
+}
+.box .items .item_detail .item_info h5{
+    height: 19px;
+    font-weight: normal;
+}
+.box .items .item_detail .item_info span{
+    color: #535353;
+    height: 19px;
+    display: inline-block;
+    font-weight: bold;
+}
+.box .items .item_detail .item_info .item_title{
+    padding-left: 12px;
+}
+.box .items .item_detail .item_info .item_price{
+    float: left;
+    width: 96px;
+    height: 38px;
+    border-top: 1px solid #AAAAA9;
+    border-bottom: 1px solid #AAAAA9;
+    padding: 6px 0 0 14px;
+}
+.box .items .item_detail .item_info .item_people{
+    float: left;
+    height: 38px;
+    border: 1px solid #AAAAA9;
+    border-right: none;
+    padding: 6px 0 0 14px;
+    width: 152px;
+}
+.box .items .item_detail .item_describtion{
+    padding: 6px 0 0 14px;
+    height: 146px;
+}
+.box .items .item_detail form{
+    padding: 6px;
+    border-top: 1px solid #AAAAA9;
+}
+.box .items .item_detail form label{
+    font-family: "Microsoft Yahei";
+    float: left;
+    margin-top: 3px;
+}
+.box .items .item_detail form input[type="checkbox"]{
+    float: left;
+    width: 14px;
+    margin: 5px 6px 0 0;
+}
+.box .items .item_detail form input[type="submit"]{
+    float: right;
+    height: 26px;
+    width: 51px;
+    border: none;
+    background: #388AC1;
+    color: white;
+    border-radius: 3px;
+}
+.box .items .calender_rank{
+    width: 891px;
+    height: 356px;
+    margin: 10px auto;
+}
+.box .items .calender_rank .calender{
+    width: 352px;
+    height: 356px;
+    border: 1px solid #AAAAA9;
+    background: white;
+}
+.box .items .calender_rank .calender form{
+    margin: 10px 20px;
+    overflow: auto;
+}
+.box .items .calender_rank .calender form select{
+    height: 20px;
+    float: left;
+    margin-right: 7px;
+}
+#year{
+    width: 62px;
+}
+#mouth{
+    width: 87px;
+    padding: 2px 23px;
+    box-sizing: border-box;
+}
+#mark{
+    width: 76px;
+}
+#return{
+    width: 64px;
+    height: 20px;
+    float: left;
+    background: white;
+    border: 1px solid #AAAAA9;
+}
+.box .items .calender_rank .calender{
+    float: left;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.box .items .calender_rank .calender table{
+    width: 310px;
+    margin: 10px auto;
+    font-size: 12px;
+    border-collapse: collapse;
+    border: none;
+}
+.box .items .calender_rank .calender table tr{
+    display: block;
+    margin-bottom: 1px;
+    height: 45px;
+}
+.box .items .calender_rank .calender table thead tr{
+    height: 35px;
+}
+.box .items .calender_rank .calender table thead tr th{
+    width: 44px;
+    text-align: center;
+    padding: 8px 0;
+    height: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid #00BFFF;
+    border-bottom: 1px solid #AAAAA9;
+}
+.box .items .calender_rank .calender table tbody tr td{
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+}
+.box .items .calender_rank .calender table tbody tr td span{
+    color: black;
+}
+.box .items .calender_rank .calender .red{
+    color: red;
+}
+.box .items .calender_rank .calender table tbody tr .select{
+    border: 1px solid yellow;
+}
+.box .items .calender_rank .calender table tbody tr td:hover{
+    border: 1px solid yellow;
+}
+.box .items .calender_rank .rank{
+    width: 527px;
+    margin-left: 8px;
+    height: 357px;
+    float: left;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #AAAAA9;
+    background: white;
+}
+.box .items .calender_rank .rank table{
+    margin: 18px auto;
+    overflow: hidden;
+    height: 274px;
+    border-bottom: none;
+}
+.box .items .calender_rank .rank table thead tr th{
+    font-size: 13px;
+    font-weight: normal;
+    height: 28px;
+}
+.box .items .calender_rank .rank table thead tr th:nth-child(1){
+    width: 69px;
+}
+.box .items .calender_rank .rank table thead tr th:nth-child(2){
+    width: 93px;
+}
+.box .items .calender_rank .rank table thead tr th:nth-child(3){
+    width: 290px;
+    text-align: left;
+    padding-left: 32px;
+    color: #221714;
+}
+.box .items .calender_rank .rank table tbody tr td{
+    text-align: center;
+    height: 24px;
+    font-size: 12px;
+    color: #323232;
+    cursor: pointer;
+    border-bottom: none;
+}
+.box .items .calender_rank .rank table tbody tr:hover{
+    background: #F4F5F7;
+}
+.box .items .calender_rank .rank table tbody tr td:nth-child(3){
+    text-align: left;
+    padding-left: 32px;
+}
+.box .items .calender_rank .rank table tbody tr td span{
+    display: inline-block;
+    height: 4px;
+    width: 169px;
+    background: #DCDCDC;
+    margin: 0 0 2px 22px;
+}
+.box .items .calender_rank .rank table tbody tr td span em{
+    float: left;
+    height: 4px;
+    background: #7FCBF0;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(1) td span em{
+    width: 141px;
+    background: #EC6E52;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(2) td span em{
+    width: 122px;
+    background: #F19F4F;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(3) td span em{
+    width: 106px;
+    background: #F19F4F;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(4) td span em{
+    width: 96px;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(5) td span em{
+    width: 87px;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(6) td span em{
+    width: 82px;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(7) td span em{
+    width: 73px;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(8) td span em{
+    width: 63px;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(9) td span em{
+    width: 58px;
+}
+.box .items .calender_rank .rank table tbody tr:nth-child(10) td span em{
+    width: 55px;
+}
