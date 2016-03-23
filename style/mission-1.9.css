@@ -443,6 +443,9 @@ header .serach a{
     font-family: "Microsoft Yahei";
     color: #323232;
     height: 22px;
+    line-height: 22px;
+    padding-left: 0;
+    background: transparent;
 }
 .box .items .mouth_total li{
     float: left;
