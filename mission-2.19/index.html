@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+    *{margin: 0; padding: 0;}
+    body{padding: 10px 100px;}
+    ul{position: relative; height: 100px; margin-top: 20px;}
+    li{float: left;width: 10px; background: red;list-style: none; margin-right: 10px;}
+    input{height: 20px;}
+    #rightOut{margin-right 30px;}
+    </style>
+    <script>
+        window.onload=function(){
+            var LI=document.getElementById("leftIn");
+            var RI=document.getElementById("rightIn");
+            var LO=document.getElementById("leftOut");
+            var RO=document.getElementById("rightOut");
+            var txt=document.getElementById("num");
+            var UL=document.getElementById("list");
+            var sort=document.getElementById("sort");
+            var aLi=UL.getElementsByTagName("li");
+            LI.onclick=function(){
+                if(aLi.length>=60){
+                    alert("too much number!");
+                    return;
+                }
+                if(!isNaN(txt.value)){
+                    var li=document.createElement("li");
+                    var height=parseInt(txt.value);
+                    if(height>=10&height<=100)
+                    {
+                        li.style.height=height+"px";
+                        li.style.marginTop=100-height+'px';
+                        if(aLi.length){
+                            UL.insertBefore(li,aLi[0]);
+                        }
+                        else{
+                            UL.appendChild(li);
+                        }
+                    }
+                    else{
+                        alert("out of range");
+                    }
+                }
+                else{
+                    alert("Error input!");
+                }
+            }
+            RI.onclick=function(){
+                if(aLi.length>=60){
+                    alert("too much number!");
+                    return;
+                }
+                if(!isNaN(txt.value)){
+                    var li=document.createElement("li");
+                    var height=parseInt(txt.value);
+                    if(height>=10&height<=100){
+                        li.style.height=height+"px";
+                        li.style.marginTop=100-height+'px';
+                        UL.appendChild(li);
+                    }
+                    else{
+                        alert("out of range");
+                    }
+                }
+                else{
+                    alert("Error input!");
+                }
+            }
+            LO.onclick=function(){
+                var aLi=UL.getElementsByTagName("li");
+                if(aLi.length){
+                    UL.removeChild(aLi[0]);
+                }
+            }
+            RO.onclick=function(){
+                var aLi=UL.getElementsByTagName("li");
+                if(aLi.length){
+                    UL.removeChild(aLi[aLi.length-1]);
+                }
+            }
+            sort.onclick=function(){
+                for(var i=0,k=0; i<aLi.length; k=++i){
+                    var obj=aLi[0];
+                    for(var j=1;j<aLi.length-k; j++){
+                        if(parseInt(obj.style.height)>parseInt(aLi[j].style.height)){
+                            obj=aLi[j];
+                            aLi[j]=aLi[i];
+                            aLi[i]=obj;
+                        }
+                    }
+                    UL.appendChild(obj);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="num" id="num" />
+    <input type="button" value="左侧入" id="leftIn"/>
+    <input type="button" value="右侧入" id="rightIn"/>
+    <input type="button" value="左侧出" id="leftOut"/>
+    <input type="button" value="右侧出" id="rightOut"/>
+    <input type="button" value="排序" id="sort"/>
+    <ul id="list">
+    </ul>
+</body>
+</html>
