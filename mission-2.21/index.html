@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+    *{margin: 0; padding: 0;}
+    body{padding: 50px 50px; font-family: "Microsoft Yahei";}
+    ul{margin: 20px 0; overflow: auto;}
+    li{float: left;padding: 10px; color: white; list-style: none; text-align: center; font-weight: bold; margin: 10px 10px 10px 0;}
+    input{ padding: 5px; font-size: 16px;}
+    textarea{padding: 5px;}
+    #tag li{ background: #87C9FF;}
+    #tag li:hover{ background: red; cursor: pointer;}
+    #hobby li{background: #FFCA8A;}
+    </style>
+    <script src="../script/mission-2.21.js"></script>
+</head>
+<body>
+    <label for="in"><b>Tag: </b></label><input type="text" id="in" /><br />
+    <ul id="tag">
+    </ul>
+    <textarea id="text" cols="50" rows="10">以空格或回车作为分隔符</textarea><br />
+    <input type="button" value="确认兴趣爱好" id="search"/>
+    <ul id="hobby">
+    </ul>
+</body>
+</html>

@@ -47,7 +47,7 @@ function getWord(args){
     var str=new Array();
     str[0]="";
     for(var i=0,j=0;i<args.length;i++){
-        if((/\w/).test(args[i])||(/^[\u4e00-\u9fa5]$/).test(args[i])){//如果匹配到字母或数字或下划线或汉字则加入str[j]中
+        if((/\w/).test(args[i])||(/[\u4e00-\u9fa5]/).test(args[i])){//如果匹配到字母或数字或下划线或汉字则加入str[j]中
             str[j]+=args[i];
         }
         else{
