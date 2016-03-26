@@ -5,3 +5,11 @@ dt{cursor: pointer; position: relative;}
 dd{margin-left: 20px;}
 span{position: absolute; border: 1px solid black; left: -20px; top: 4px;height: 12px; width: 12px; line-height: 12px; text-align: center; font-size: 14px; color: black;}
 .hide{ display: none; }
+.selected{
+    background: gray;
+    color: white;
+}
+.result{
+    background: #ccffff;
+    color: black;
+}
