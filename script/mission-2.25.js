@@ -59,10 +59,7 @@ function toggle(){
     return false;
 }
 function addColorChange(){
-    var delResult=document.getElementById("root").parentNode.getElementsByTagName("dt");
-    for(var i=0;i<delResult.length;i++){
-        removeClass(delResult[i],"result");
-    }
+    removeSearch();
     var oDt=document.getElementById("root").parentNode.getElementsByClassName("selected")[0];
     if(oDt){
         removeClass(oDt,"selected")
@@ -110,6 +107,7 @@ function delNode(){
 }
 //搜索节点
 function searchNode(){
+    removeSearch();
     var txt=document.getElementById("node");
     if(txt.value){
         var aDt=document.getElementsByTagName("dt");
@@ -135,5 +133,11 @@ function expandParent(obj){
         }
         odd.parentNode.children[0].children[0].innerHTML="-";
         expandParent(odd);
+    }
+}
+function removeSearch(){
+    var delResult=document.getElementById("root").parentNode.getElementsByTagName("dt");
+    for(var i=0;i<delResult.length;i++){
+        removeClass(delResult[i],"result");
     }
 }
