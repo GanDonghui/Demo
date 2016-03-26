@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <title>JavaScript和树</title>
+        <link rel="stylesheet" href="../style/mission-2.25.css" />
+        <script type="text/javascript" src="../script/mission-2.25.js"></script>
+    </head>
+    <body>
+        <div>
+            <input type="text" id="node"/>
+            <input type="button" value="插入" id="insert"/>
+            <input type="button" value="搜索"id="search_btn" />
+            <input type="button" value="删除选中节点" id="del" /><br />
+        </div>
+        <dl>
+            <dt id="root"><span>-</span>中国</dt>
+            <dd>
+                <dl>
+                    <dt><span>+</span>陕西</dt>
+                    <dd class="hide">
+                        <dl>
+                            <dt><span>+</span>西安</dt>
+                        </dl>
+                    </dd>
+                    <dd class="hide">
+                        <dl>
+                            <dt><span>+</span>咸阳</dt>
+                        </dl>
+                    </dd>
+                </dl>
+            </dd>
+            <dd>
+                <dl>
+                    <dt><span>+</span>江西</dt>
+                    <dd class="hide">
+                        <dl>
+                            <dt><span>+</span>抚州</dt>
+                        </dl>
+                    </dd>
+                    <dd class="hide">
+                        <dl>
+                            <dt><span>+</span>九江</dt>
+                        </dl>
+                    </dd>
+                </dl>
+            </dd>
+            <dd>
+                <dl>
+                    <dt><span>+</span>福建</dt>
+                    <dd class="hide">
+                        <dl>
+                            <dt><span>+</span>福州</dt>
+                        </dl>
+                    </dd>
+                    <dd class="hide">
+                        <dl>
+                            <dt><span>+</span>厦门</dt>
+                        </dl>
+                    </dd>
+                </dl>
+            </dd>
+        </dl>
+    </body>
+</html>
